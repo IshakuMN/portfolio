@@ -1,0 +1,31 @@
+{
+  "name": "lab1fed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "comic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshakuMN/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshakuMN/portfolio/issues"
+  },
+  "homepage": "https://github.com/IshakuMN/portfolio#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0"
+  }
+}
